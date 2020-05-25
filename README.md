@@ -1,2 +1,0 @@
-# javascript-utils
-javascript-utils

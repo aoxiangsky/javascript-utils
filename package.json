@@ -1,22 +1,24 @@
 {
-  "name": "happy-javascript-utils",
-  "version": "1.0.0",
-  "description": "javascript-utils",
+  "name": "eagle-utils",
+  "version": "0.0.1",
+  "description": "eagle-utils",
   "main": "src/index.js",
   "scripts": {
-    "build": "rollup -c && tsc"
+    "build": "rollup -c ./scripts/rollup.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aoxiangsky/javascript-utils.git"
   },
-  "author": "",
+  "author": "aoxiang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aoxiangsky/javascript-utils/issues"
   },
   "homepage": "https://github.com/aoxiangsky/javascript-utils#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "@rollup/plugin-alias": "^3.1.0",
     "@rollup/plugin-babel": "^5.0.2",
     "@rollup/plugin-buble": "^0.21.3",
