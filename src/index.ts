@@ -1,3 +1,3 @@
-import { logA } from './tools/test'
+import { logB } from './tools/test'
 
-logA()
+logB()
