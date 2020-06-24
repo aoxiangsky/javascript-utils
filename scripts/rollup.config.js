@@ -21,7 +21,7 @@ export default {
   output: [
     {
       file: "lib/index.js",
-      format: "umd",
+      format: "esm",
       name: "eagle",
       sourcemap: true,
     }

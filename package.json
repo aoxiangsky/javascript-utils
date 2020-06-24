@@ -8,8 +8,8 @@
     ],
     "scripts": {
         "build": "run-s -s build:clean build:rollup",
-        "build:clean": "rimraf lib",
-        "build:rollup": "rollup -c ./scripts/rollup.config.js",
+        "build:clean": "rimraf lib && mkdir lib",
+        "build:rollup": "rollup -c ./scripts/rollup.config.js --environment NODE_ENV:production",
         "format": "prettier --write *.js \"src/*.ts\""
     },
     "repository": {
