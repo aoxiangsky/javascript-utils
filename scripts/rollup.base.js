@@ -16,7 +16,7 @@ import { dependencies } from '../package.json';
 const extensions = ['.ts', '.js'];
 
 export default {
-    input: 'src/main.ts',
+    input: 'src/eagle.ts',
     external: [...Object.keys(dependencies || {})],
     plugins: [
         alias({
@@ -41,6 +41,7 @@ export default {
         //将cjs的npm包转成esm,在代码中可以用import引入
         commonjs({ extensions: ['js'], include: 'node_modules/**' }),
         babel({
+            exclude: 'node_modules/**',
             extensions,
             presets: [
                 '@babel/preset-typescript',

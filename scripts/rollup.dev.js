@@ -30,6 +30,7 @@ export default {
             open: true,
             host: 'localhost',
             port: 6866,
+            contentBase: '../lib/eagle-utils.js',
             historyApiFallback: true,
             contentBase: [resolveFile('public'), resolveFile('lib')],
         }),

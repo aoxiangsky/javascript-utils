@@ -1,14 +1,16 @@
 {
     "name": "eagle-utils",
     "version": "0.0.1",
-    "description": "eagle-utils",
+    "author": "aoxiang",
+    "license": "MIT",
+    "description": "like an eagle soar in the sky",
     "main": "lib/eagle-utils.cjs.js",
     "modules": "lib/eagle-utils.esm.js",
     "files": [
         "lib"
     ],
     "scripts": {
-        "dev": "cross-env NODE_ENV=development rollup -w -c ./scripts/rollup.dev.js",
+        "serve": "cross-env NODE_ENV=development rollup -w -c ./scripts/rollup.dev.js",
         "build": "run-s -s build:clean build:rollup",
         "build:clean": "rimraf lib && mkdir lib",
         "build:rollup": "cross-env NODE_ENV=production rollup -c ./scripts/rollup.prod.js",
@@ -18,8 +20,6 @@
         "type": "git",
         "url": "git+https://github.com/aoxiangsky/javascript-utils.git"
     },
-    "author": "aoxiang",
-    "license": "ISC",
     "bugs": {
         "url": "https://github.com/aoxiangsky/javascript-utils/issues"
     },
