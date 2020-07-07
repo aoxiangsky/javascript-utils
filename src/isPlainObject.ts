@@ -1,4 +1,4 @@
-import getTag from './utils/getTag';
+import getTag from './internal/getTag';
 import isObjectLike from './isObjectLike';
 
 function isPlainObject(value:any) {

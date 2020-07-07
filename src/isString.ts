@@ -1,4 +1,4 @@
-import getTag from './utils/getTag';
+import getTag from './internal/getTag';
 function isString(value: any) {
     const type = typeof value;
     return (

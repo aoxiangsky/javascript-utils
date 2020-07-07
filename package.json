@@ -1,11 +1,13 @@
 {
     "name": "eagle-utils",
+    "npmName": "eagle-utils",
     "version": "0.0.1",
     "author": "aoxiang",
     "license": "MIT",
     "description": "like an eagle soar in the sky",
     "main": "lib/eagle-utils.cjs.js",
     "modules": "lib/eagle-utils.esm.js",
+    "sideEffects": false,
     "files": [
         "lib"
     ],
