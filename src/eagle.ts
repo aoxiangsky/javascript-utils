@@ -4,3 +4,4 @@ export { default as isNumber } from './isNumber';
 export { default as isObjectLike } from './isObjectLike';
 export { default as isPlainObject } from './isPlainObject';
 export { default as isString } from './isString';
+export { default as phoneNumberValidator } from "./validator/phoneNumber"
