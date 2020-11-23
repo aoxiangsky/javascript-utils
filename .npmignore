@@ -1,6 +1,14 @@
 scripts/
 src/
+test/
+node_modules/
+public/
+.vscode
 .babelrc
 .prettierrc.js
+.prettierignore
+.gitignore
 .eslintrc.json
+.eslintignore
+.editorconfig
 tsconfig.json
