@@ -16,7 +16,8 @@ import { dependencies } from '../package.json';
 const extensions = ['.ts', '.js'];
 
 export default {
-    input: 'src/eagle.ts',
+    input: 'src/index.ts',
+    // 指出应将哪些模块视为外部模块
     external: [...Object.keys(dependencies || {})],
     plugins: [
         alias({
